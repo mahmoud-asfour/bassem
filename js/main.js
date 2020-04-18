@@ -197,6 +197,20 @@ jQuery(document).ready(function () {
         },
     });
 
+    // ===== Scroll to Top ====
+    $(window).scroll(function() {
+        if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+            $('#return-to-top').fadeIn(200);    // Fade in the arrow
+        } else {
+            $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+        }
+    });
+    $('#return-to-top').click(function() {      // When arrow is clicked
+        $('body,html').animate({
+            scrollTop : 0                       // Scroll to top of body
+        }, 500);
+    });
+
     var a = 0;
     jQuery(window).scroll(function () {
         if (jQuery(this).scrollTop() >= 20) {
@@ -303,27 +317,26 @@ jQuery(document).ready(function () {
             }
 
         });
-        $('.media_tabs').addClass('owl-carousel');
 
-        $('.media_tabs').owlCarousel({
-            stagePadding: 80,
-            loop:true,
-            margin:20,
-            nav:false,
-            items:3,
-            // responsive:{
-            //     0:{
-            //         items:1
-            //     },
-            //     600:{
-            //         items:3
-            //     },
-            //     1000:{
-            //         items:5
-            //     }
-            // }
-
-        });
+        // $('.media_tabs').addClass('owl-carousel');
+        // $('.media_tabs').owlCarousel({
+        //     stagePadding: 20,
+        //     loop:true,
+        //     margin:30,
+        //     nav:false,
+        //     responsive:{
+        //         0:{
+        //             items:1
+        //         },
+        //         600:{
+        //             items:3
+        //         },
+        //         1000:{
+        //             items:5
+        //         }
+        //     }
+        //
+        // });
 
         //hide photo by class who am i
         jQuery('.me_photo.hidden-xs').parent().hide();
