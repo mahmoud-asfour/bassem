@@ -297,26 +297,26 @@ jQuery(document).ready(function () {
     //owl carousel
     if ($(window).width() < 991) {
 
-        $('.pict_of_me.home').addClass('owl-carousel');
-
-        $('.pict_of_me.home').owlCarousel({
-            stagePadding: 50,
-            loop:true,
-            margin:14,
-            nav:false,
-            responsive:{
-                0:{
-                    items:1
-                },
-                600:{
-                    items:2
-                },
-                1000:{
-                    items:5
-                }
-            }
-
-        });
+        // $('.pict_of_me.home').addClass('owl-carousel');
+        //
+        // $('.pict_of_me.home').owlCarousel({
+        //     stagePadding: 50,
+        //     loop:true,
+        //     margin:14,
+        //     nav:false,
+        //     responsive:{
+        //         0:{
+        //             items:1
+        //         },
+        //         600:{
+        //             items:2
+        //         },
+        //         1000:{
+        //             items:5
+        //         }
+        //     }
+        //
+        // });
 
         // $('.media_tabs').addClass('owl-carousel');
         // $('.media_tabs').owlCarousel({
