@@ -459,7 +459,8 @@ header.not_home.fixed-header .nav-anchor:hover{
 
 .first-slider .sec_title .show_more,.sec-slider .show_more{
     font-size:24px;
-    font-family: 'HG_REGO';
+    /*font-family: 'HG_REGO';*/
+    font-family: 'HG_BOL';
     color: #786e94;
     text-transform: uppercase;
     line-height: 5;
@@ -689,7 +690,8 @@ font-size: 100px;
 
 .press .show_more {
     font-size: 24px;
-    font-family: 'HG_REGO';
+    /*font-family: 'HG_REGO';*/
+    font-family: 'HG_BOL';
     color: #786e94;
     text-transform: uppercase;
     line-height: 5;
@@ -917,7 +919,8 @@ z-index: 9;
 
 .plant_b .show_more {
     font-size: 24px;
-    font-family: 'HG_REGO';
+    /*font-family: 'HG_REGO';*/
+    font-family: 'HG_BOL';
     color: #786e94;
     text-transform: uppercase;
     line-height: 5;
@@ -1410,7 +1413,7 @@ z-index: 9;
 }
 
 .show_stream-body .show_date {
-    font-family: 'HG_LIG';
+    font-family: 'HG_BOL';
     color: #786e94;
     font-size: 16px;
     margin-bottom: 14px;
@@ -4673,7 +4676,7 @@ ol.breadcrumb li a:hover {
     }
 
     .who_am{
-        margin-top: 140px;
+        margin-top: 100px;
     }
 
     .first-slider, .sec-slider{
@@ -4695,6 +4698,10 @@ ol.breadcrumb li a:hover {
 
     .giving_back .giv_btns a{
         padding: 10px 45px;
+    }
+
+    .contact_content{
+        margin: 100px auto 0 auto;
     }
 
 }
