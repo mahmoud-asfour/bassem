@@ -3781,6 +3781,7 @@ a.foot-nav-link:focus {
 .footer-social {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .footer-social .social {
