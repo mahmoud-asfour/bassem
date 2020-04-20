@@ -2,7 +2,7 @@
 	width: 100%;
 	/*margin: 20px auto;*/
 	overflow: hidden;
-	margin-top: 28px;
+	margin-top: 0;
 	/*box-shadow: 1px 1px 4px rgba(0,0,0,0.08);*/
 	/*border: 7px solid rgba(255,255,255,0.6);*/
 }
@@ -23,7 +23,7 @@
 .ia-container > figure {
     position: relative;
 	left: 0 !important;
-    height: 460px;
+    height: 490px;
 }
 
 .ia-container img {
