@@ -23,11 +23,13 @@
 .ia-container > figure {
     position: relative;
 	left: 0 !important;
+    height: 430px;
 }
 
 .ia-container img {
 	display: block;
 	/*width: 100%;*/
+    height: -webkit-fill-available;
 }
 
 .ia-container input {
