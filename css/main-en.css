@@ -3633,6 +3633,25 @@ margin-left: 34px;
         right: -5px;
         text-align: right;
     }
+
+
+    .myworks_content .media_tabs{
+        display: flex;
+        justify-content: normal;
+        width: 90%;
+        height: 68px;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .myworks_content .media_tabs::-webkit-scrollbar {    display: none;}
+
+
+    .myworks_content .media_tabs .filter-btn{
+        white-space: nowrap;
+        margin: 0 10px;
+    }
+
 }
 /*          end my works            */
 
